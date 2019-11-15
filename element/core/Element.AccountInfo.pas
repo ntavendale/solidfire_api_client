@@ -1,4 +1,4 @@
-unit Solidfire.AccountInfo;
+unit Element.AccountInfo;
 
 {$mode objfpc}{$H+}
 
@@ -10,7 +10,7 @@ uses
   {$ELSE}
   System.Classes, System.SysUtils, System.Json,
   {$ENDIF}
-  SolidFire.Interfaces;
+  Element.Interfaces;
 
 type
   TAccountInfo = class(TInterfacedObject, ISolidFire)
